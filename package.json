@@ -1,6 +1,6 @@
 {
-  "name": "atomistic-toolbox",
-  "version": "0.3.0",
+  "name": "@anselmoo/atomistic-toolbox",
+  "version": "0.3.1",
   "private": true,
   "type": "module",
   "license": "MIT",
@@ -14,9 +14,12 @@
     "physics"
   ],
   "homepage": "https://github.com/Anselmoo/atomistic-toolbox#readme",
-  "repository": "github:Anselmoo/atomistic-toolbox",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Anselmoo/atomistic-toolbox"
+  },
   "publishConfig": {
-    "@Anselmoo:registry": "https://npm.pkg.github.com"
+    "@anselmoo:registry": "https://npm.pkg.github.com"
   },
   "bugs": {
     "url": "https://github.com/Anselmoo/atomistic-toolbox/issues"
