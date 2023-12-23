@@ -1,5 +1,5 @@
 {
-  "name": "atomistic-toolbox",
+  "name": "@anselmoo/atomistic-toolbox",
   "version": "0.3.1",
   "private": false,
   "type": "module",
