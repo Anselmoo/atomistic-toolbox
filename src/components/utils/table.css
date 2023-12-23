@@ -1,0 +1,131 @@
+.checkbox-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  /* Decrease minmax value to make boxes smaller */
+  gap: 5px;
+  border: 1px solid transparent;
+  /* Make border transparent */
+}
+
+.checkbox-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #35495e;
+  /* Vue's dark blue color */
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #42b983;
+  /* Vue's green color */
+  color: #fff;
+  /* Change text color to white for contrast */
+  font-size: 0.8em;
+  /* Decrease font size to make boxes smaller */
+}
+
+.checkbox-item input {
+  order: 2;
+}
+
+.checkbox-item label {
+  order: 1;
+}
+
+.separator {
+  border-top: 1px solid rgb(128, 128, 128);
+  margin: 20px 0;
+  /* Add some margin to separate the line from the checkboxes and the table */
+}
+
+.table-container {
+  display: grid;
+  grid-template-rows: min-content min-content;
+  grid-template-columns: 1fr;
+  row-gap: 10px;
+  align-self: start;
+}
+/* .table-container:last-child {
+  margin-bottom: 0;
+} */
+/* Styles for the table */
+.table-style {
+  /* width: 100%; */
+  border-collapse: collapse;
+  margin-bottom: 0px;
+}
+
+/* Styles for the table headers */
+.table-style th {
+  background-color: #42b983;
+  color: white;
+  padding: 2px;
+  line-height: 2;
+  /* Adjust this value to reduce the row height */
+  text-align: left;
+  border: none;
+  /* Add this line */
+}
+
+/* Styles for the table cells */
+.table-style td {
+  padding: 2px;
+  line-height: 2;
+  /* Adjust this value to reduce the row height */
+  text-align: left;
+  border: none;
+  /* Add this line */
+}
+
+/* Styles for even table rows */
+
+/* Styles for table rows on hover */
+.table-style tr:hover {
+  background-color: rgba(66, 185, 131, 0.435);
+}
+
+.tbody-style {
+  height: auto;
+  width: 100%;
+}
+
+.column {
+  width: 100%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.chart-container {
+  height: 400px;
+  /* Adjust as needed */
+}
+
+.button-container {
+  display: grid;
+  justify-content: grid;
+  /* justify-content: flex-end; */
+}
+
+.button-container button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #35495e; /* Vue's dark blue color */
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #fff; /* Vue's green color */
+  color: #42b983; /* Change text color to white for contrast */
+  font-size: 0.8em; /* Decrease font size to make boxes smaller */
+  cursor: pointer; /* Change cursor to pointer when hovering over the button */
+}
+
+.button-container button:hover {
+  background-color: #42b983; /* Change background color to white */
+  color: #fff; /* Change text color to Vue's green color */
+}
