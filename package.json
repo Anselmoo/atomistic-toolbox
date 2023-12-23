@@ -1,7 +1,7 @@
 {
-  "name": "@anselmoo/atomistic-toolbox",
+  "name": "atomistic-toolbox",
   "version": "0.3.1",
-  "private": true,
+  "private": false,
   "type": "module",
   "license": "MIT",
   "author": "Anselm Hahn",
