@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/32eb30c3-aa5c-49e4-a268-0f24dd03c6f9/deploy-status)](https://app.netlify.com/sites/atomistic-toolbox/deploys)
+
 # Atomistic-Toolbox
 
 ## About
