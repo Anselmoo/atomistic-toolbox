@@ -178,3 +178,8 @@ data/slater/reference_data_xclaim.py
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+
+# VS Code ES7 React/Redux/GraphQL/React-Native snippets
+.code-snippets
+./vscode/*
