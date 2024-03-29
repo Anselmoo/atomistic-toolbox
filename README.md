@@ -18,4 +18,4 @@ Atomistic-Toolbox is licensed under [MIT](LICENSE)
 
 ## Contributing
 
-If you want to contribute to Atomistic-Toolbox, please read the [Contributing Guidelines](CONTRIBUTING) first.
+If you want to contribute to Atomistic-Toolbox, please read the [Contributing Guidelines](CONTRIBUTING.md) first.
